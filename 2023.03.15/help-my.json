@@ -1,0 +1,1517 @@
+|  /*
+   ?#SECTION УСТАНОВЛЕННЫЕ ПЛАГИНЫ VSCode. СПИСОК-> 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  СПИСОК ПЛАГИНОВ:
+  ----------------
+  [Deprecated] Bracket Pair Colorizer 2
+  Alignment
+  Better Comments
+  C#
+  change-case
+  Clipboard Manager
+  Code Runner
+  Code Spell Checker
+  Color the tag name
+  Comment Anchors
+  //CSS Navigation
+  file-icons-mac
+  Format HTML in PHP
+  Git Graph
+  Here Unicode Mate
+  Highlight Matching Tag
+  // HTML End Tag Labels
+  HTMLHint
+  htmltagwrap
+  Image preview
+  indent-rainbow
+  Indenticator
+  IntelliSense for CSS class names in HTML
+  LanguageTool for Visual Studio Code
+  Jupyter
+  Jupyter Keymap
+  Jupyter Notebook Renderers
+  Live Sass Compiler
+  Live Server
+  Live Share
+  MySQL Syntax
+  Night Owl
+  // Night Owl Black
+  // Night Owlet
+  // Over Night Owl
+  npm Intellisense
+  Oscuro Theme
+  Path Intellisense
+  PHP Intelephense
+  PowerShell
+  PowerShell Pro Tools
+  Prettier-Code formater
+  // PHP Server
+  Prettify JSON
+  Project Manager
+  // Pylance
+  // Python
+  Reload
+  Remote - WSL
+  Russian - Code Spell Checker
+  Russian Language Pack for Visual Studio Code
+  Sass
+  SCSS Formatter
+  SCSS IntelliSense
+  Space Ocean Kit Refined
+  // Simple Icons 
+  VSCode Great Icons
+  Window Colors
+  
+  #!SECTION
+  
+   REVIEW СПРАВКА =>*****************************************
+   ! ::::::::::::::::::
+  ПОЛЕЗНОЕ-VSCode-Фотошоп-Git-Github-Настройка под PHP-SCSS-
+  Описание Плагинов-Команды CMD Терминала
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  
+   ?#SECTION ## VSCode - ПОЛЕЗНОЕ-> 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  
+  * NOTE 'Меню'. Показать верхнее Меню:
+  -------------------------------------------
+  Alt
+
+  * NOTE 'Параметры'. Открыть меню редактора - "Параметры":
+  -------------------------------------------
+  Ctrl + ,
+  
+  * NOTE Новое окно. Открыть Новое Окно Редактора VSCode:
+  -------------------------------------------
+  Ctrl + Shift + N 
+  
+  * NOTE Свернуть\Развернуть весь код:
+  ---------------------------------------
+  Свернуть всё: CTRL+K, CTRL+0 (zero)
+  Развернуть всё: CTRL+K, CTRL+J
+  
+  Свернуть уровней [n]: CTRL+K, CTRL+[n]
+  
+  Свернуть регион: CTRL+K, CTRL+[
+  Развернуть регион: CTRL+K, CTRL+]
+  
+  
+  * NOTE Слова. Быстрое исправление написания Слов:
+  --------------------------------------------
+  Ctrl + .
+
+  * NOTE Слова. Выделить Слово:
+  -------------------------
+  Ctrl + D
+
+  * NOTE Строки. Перемещение строки/выделенного блока Вверх/Вниз: 
+  ------------------------------------------------------------
+  Alt + СтрелкаВниз  или СтрелкаВверх
+  
+  * Строки. Переместить Строку вверх\вниз:
+  ----------------------------------
+  Alt + Стрелка Вверх\Вниз
+  
+  * NOTE Строки. Копирование Строк:
+  ----------------------------- 
+  Shift + Alt + СтрелкаВниз  или СтрелкаВверх
+  
+  *# NOTE Строки. Свернуть/Развернуть Строки:
+  ===================================
+  * Свернуть Строки Блока где стоит курсор:
+  ------------------------------------------
+  Ctrl + Shift + [
+    
+  * Развернуть Строки Блока где стоит курсор:
+  ---------------------------------------------
+  Ctrl + Shift + ]
+  
+  * Свернуть Строки с Комментариями:
+  ---------------------------------
+  Ctrl + K и затем  Ctrl + /
+  
+
+  
+  * NOTE Строки. Выделить текущую строку:
+  ------------------------------
+  ~ CTRL + L
+
+  * NOTE Строки. Удалить Строку:
+  -------------------------
+  (при этом она копируется в буфер обмена).
+  Shift + Del
+  или 
+  ctrl+c/v/x - стандартные хоткеи
+  
+  * NOTE Строки. Перейти к Строке под Номером:
+  --------------------------------------
+  Ctrl + G откроется окно и вставь номер строки
+  
+  * NOTE Строки. Перенос строк включить/отключить:
+  ------------------------------------
+  ~ ALT + Z
+
+  * NOTE Class/id. Перейти из html класса/id в css ФАЙЛ:
+  -----------------------------------------------
+  F12
+  или Alt + F12
+  
+  * NOTE Class. Перейти из HTML к классу CSS:
+  --------------------------------- 
+  Клавиша "F12"
+  
+  * NOTE Обернуть Контент в Тег:
+  --------------------------------
+  Alt + W
+  
+  * NOTE Терминал. Запустить Терминал VSCode:
+  -----------------------------------
+  Ctrl + ~ 
+  
+  * NOTE Выделения. Выделить все вхождения текущего выделения:
+  -------------------------------------------------
+  ~ CTRL + SHIFT + L
+  
+  * NOTE Выделения. Добавить Курсор к следующему соответствующему выделению:
+  --------------------------------------------------------------
+  ~ CTRL + D
+  
+  * NOTE Отменить последнюю операцию курсора:
+  -------------------------------------------
+  ~ CTRL + U
+  
+  * NOTE Коментарии. Переключить блок-комментарий:
+  ------------------------------------
+  ~ SHIFT + ALT + A
+
+
+  #!SECTION
+  
+
+  ?#SECTION ## VSCode - ПЛАГИНЫ ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+  
+  * NOTE 'Alignment' - Плагин выравнивает код:
+  ------------------------------------------
+  Помогает выравнивать фрагменты кода по знакам =, +, ....
+  Alt + =/+
+  
+  * NOTE 'CSS Navigation' - Плагин Навигации по всем Файлам Стилей из HTML в CSS / Sass / Less
+  причем даже если они не открыты в редакторе:
+  --------------------------------------------
+  Переход из селектора в HTML файле к селектору в CSS файле:
+  ~ F12
+  Из CSS файла поиск селекторов во всех файлах HTML и CSS файлах:
+  ~ Shift +Alt +F12 (в окне References)
+  ~ Shift + F12 (в всплывающем окне в теле кода)
+  
+  * NOTE 'eCssTracktor' - Плагин Копирует Стили:
+  --------------------------------------------
+  копирует стили с BEM 
+  Ctrl + Alt + 1
+  копирует стили без BEM 
+  Ctrl + Alt + 2
+  
+  
+  * NOTE 'Stylesheets Comb Format' - Плагин:я
+  ---------------------------------------
+  # ФОРМАТ SCSS/CSS файлов: 
+  Shift + Alt + ;
+  
+  * NOTE 'Bookmarks' - Плагин Ставит Закладки:
+  ------------------------------------------
+  Нажать F1 или Ctrl+Shift+P и выбрать Команду:
+  Bookmarks: Toggle             Отметить / снять отметку с позиций закладками
+  Bookmarks: Toggle Labeled     Отметить помеченные закладки
+  Bookmarks: Jump to Next       Переместите курсор вперед, к закладке ниже
+  Bookmarks: Jump to Previous   Переместите курсор назад, к закладке выше
+  Bookmarks: List               Список всех закладок в текущем файле
+  Bookmarks: List from All Files  Список всех закладок из всех файлов
+  Bookmarks: Clear                удалить все закладки в текущем файле
+  Bookmarks: Clear from All Files удалить все закладки из всех файлов
+  Bookmarks (Selection): Select Lines              Выбрать все строки, содержащие закладки
+  Bookmarks (Selection): Expand Selection to Next  Развернуть выделенный текст до следующей закладки
+  Bookmarks (Selection): Expand Selection to Previous  Развернуть выделенный текст до предыдущей закладки
+  Bookmarks (Selection): Shrink Selection          Сжать выделенный текст до закладки Предыдущая / Следующая
+  
+  * NOTE 'RemoveEmptyLines' - Плагин, Удалить Пустые Строки:
+  ----------------------------------------------------------
+  Удаляет пустые строки в коде во всем файле или выделенном блоке.
+  F1 или "Ctrl+Shift+P и выбрать "remove empty lines"
+  
+  * NOTE 'Change-Case' - Плагин, Меняет Регистр Букв:
+  --------------------------------------------------
+  F1 или "Ctrl+Shift+P и выбрать "Change Case Commands" и выбираем вариант, что и как менять
+  
+  * NOTE 'Comment Anchors' - Плагин, Якоря:
+  -----------------------------------------
+  anchor - Used to indicate a section in your file
+  todo - An item that is awaiting completion
+  fixme - An item that requires a bugfix
+  stub - Used for generated default snippets
+  note - An important note for a specific code section
+  review - An item that requires additional review
+  section - Used to define a region (See 'Hierarchical anchors')
+  link - Used to link to a file that can be opened within the editor (See 'Link Anchors')
+  
+  LINK https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors
+  * Можно добавить [epic=полезное сейчас] к якорю , что бы он отобразился внизу, в разделе "Epic Anchors". 
+  # Файл настройки: package.json находиться в папке плагина:
+  LINK file:///C:\Users\ashle\.vscode\extensions\exodiusstudios.comment-anchors-1.9.6\package.json
+  
+  # * NOTE Добавить ссылки на файлы на компьюторе, 2 способа:
+  1. file:///C:\Users\ashle\....
+  2. 
+  #!SECTION
+  
+  
+  ?#SECTION ## VSCode - СНИППЕТЫ->
+  НАСТРОЙКА ПОЛЬЗОВАТЕЛЬСКИХ СНИПЕТОВ ДЛЯ ИНТЕРФЕЙСА
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  
+      1) F1 или Ctrl + Shift + P
+      2) В строке вводим: user snippets
+      3) Выбираем существующий файл или создаем новый (расширение нового файла должно быть .code-snippets)
+      4) и вставляем этот код:
+      (пример, структура сниппета для вызова кода открытия php, используя для быстрого ввода php+enter )
+      {
+      "php": {
+          "prefix": "php",
+          "body": [
+              "<?php $1 ?>"
+          ],
+          "description": "Expand PHP Tags"
+      }
+  }
+  #!SECTION
+  
+  
+  
+  ?#SECTION ## SASS/SCSS->
+  xxxxxxxxxxxxxxxxxxxxxxxxxx
+  1. Можно установить правила для компиляции Глобально,
+  можно установить для рабочего проекта. Для этого в папке
+  .vscode создать файл settings.json с настройками для этого проекта
+  (https: //github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/faqs.md).
+  2. Чтобы в каталоге sass не компилироваться файл необходимо добавить подчеркивание, например "_файл.scss.
+  3. чтобы этот файл попал в главный style.css необходимо добавить в style.scss директиву: 
+  '@import "_файл/scss";'. Тогда стили будут компилироваться в главный style.css.   
+  #!SECTION
+  
+  
+
+
+  ?#SECTION ## Git и Github->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  При создании нового репозитория на Github, если не хочешь мучится с решением конфликта,
+  не создавай там никаких файлов, тем более не делай коммиты.
+  Лучше в чистый новый репозиторий за пушить свой проект с компьютера.
+
+  NOTE Шпаргалки на Мой Github Репозиторий по Git:
+  LINK https://github.com/Oxana-S/Git-Help
+  * SECTION Команды Git:
+  ---------------------
+  ## NOTE Работа с git на локальном компьютере:
+  # создать новый проект в текущей директории
+  ~ git init 
+  # показать состояние репозитория            
+  ~ git status  
+  # добавить в индекс все новые, изменённые, удалённые файлы из текущей директории и её поддиректорий
+  ~ git add . 
+  # удалить отслеживаемые файлы из раздела проиндексированных файлов. Больше не отслеживать какой-либо файл или несколько файлов?
+  ~ git rm
+  # убрать из индекса все добавленные в него изменения (в рабочей директории все изменения сохранятся), антипод git add
+  ~ git reset  
+  # убрать из индекса изменения указанного файла (в рабочей директории изменения сохранятся)          
+  ~ git reset readme.txt   
+  # зафиксировать в коммите проиндексированные изменения (закоммитить)
+  ~ git commit -m "Name of commit" 
+  # Внести изменения в текст последнего коммита:
+  ~ git commit --amend 
+  
+  ## NOTE Ветки:   
+  # показать список веток:  
+  ~ git branch  
+  # показать родителя ветки, сниппет:
+  ~ смотреть код сниппета нужно в папке: D:\4.1_Screen_Learn\git\Команды Git\Git. Посмотреть Родителя Ветки\сниппет_parent-branch.txt  
+  # Переименовать ветку в main:
+  ~ git branch -M main  
+  # создать новую ветку с указанным именем и перейти в неё:
+  ~ git checkout -b new_branch 
+  # создание новой ветки:
+  ~ git branch название_ветки
+  # перейти в ветку:
+  ~ git checkout название_ветки  
+  # удалить ветку, выполните команду git branch с параметром -d:
+  ~ git branch -d hotfix
+  
+  ## NOTE Слияние Веток:
+  # переходим в ветку в которую хотим слит изменения (например :main) из другой ветки:
+  ~ git checkout main
+  # используем команду merge, на пример: для слияния в ветку main -> ветку hotfix:
+  ~ git merge hotfix 
+  # после слияния ветку можно Удалить. Для Удаления ветки выполните команду git branch с параметром -d:
+  ~ git branch -d hotfix
+  
+  ## NOTE Удаленный Репозиторий:
+  # показать список удалённых репозиториев, связанных с локальным:
+  ~ git remote -v   
+  # Подключиться к удаленному репозиторию на github:
+  ~ git remote add origin https: //github.com/Oxana-S/telemagadan.ru-04.22.git   
+  # Запушить на удаленный реп. с именем main: 
+  ~ git push -u origin main    
+  
+  ## NOTE Просмотр Изменений (Отличий от Локального Репозитория) на Удаленном Репозитории:
+  LINK https://clck.ru/sGeAz
+  
+  ## NOTE Просмотр Изменений в файлах Репозитория:
+  # Посмотреть изменения до добавления в индекс (до команды add):
+  ~ git diff
+  
+  ## NOTE Просмотр Изменения, внесенные Коммитом, можно с помощью двух команд: git show и git log -p.
+  # Команда (git show) показывает изменения, внесенные указанным коммитом:
+  ~ git show <коммит> 
+  
+  # Команда (git log -p) служит чтобы просмотреть сразу несколько коммитов.
+  (-1 показывает в каком количестве коммитов смотреть, -1 смотреть в последнем, -2 смотреть в последних двух, и тд.):
+  ~ git log -p -1
+  
+  ## NOTE Просмотр Изменения с использованием ключей:
+  LINK на статью: https://clck.ru/sGdnc
+
+  ~ git log --pretty=format: "%h %s" --graph     // без даты коммита
+  ~ git log --pretty=format: "%h %s %cd" --graph // с датой коммита
+
+  
+
+  ## NOTE Установки git на компьютере:
+  # Посмотреть установки git на компьютере:
+  ~ git config --list --show-origin 
+  # Установить глобально в git своё имя:
+  ~ git config --global user.name "ваше имя"
+  # Установить глобально почтовый адрес:
+  ~ git config --global user.email "ваш email"  
+   #!SECTION
+
+  * NOTE Как Клонировать Репозиторий с Github, git clone?
+  -------------------------------------------------------
+  1. Зайти в папку куда хотим клонировать репозиторий, адрес с htpps:\\.
+  2. Пример: git clone https://github.com/wting/autojump.git
+  
+  * NOTE Как Выйти из git log, Редактора Vi, Vim?
+  ----------------------------------------------
+   Q * проверь раскладку !!
+   Ctrl + C 
+   :q 
+   :z 
+   Ctrl + Z 
+  Универсальный способ: ESC,Shit+Z,Shit+Z
+  
+  * NOTE Как Выйти из Редактора git bush?
+  ---------------------------------------
+  После git commit команды вы вошли в редактор: 
+  - поэтому сначала нажмите, i (режим ввода текста)
+  - затем начните печатать. 
+  - После совершения вашего сообщения (переходим в командный режим) нажмите Esc или Ctrl + c 
+  - затем :wq
+
+
+  * NOTE Изменить Адрес Репозитория на Github: 
+  --------------------------------------------
+  LINK https://clck.ru/sGk59
+  Первый способ задать url репозитория использовать команду (git remote set-url origin < здесь реп >), например:
+  ~ git remote set-url origin git@github.com:vicman-wi/wi-backend.git
+  #!SECTION
+  
+  
+  ?#SECTION ## NODE JS, NPM, GULP ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Шаг 1.
+  # убедитесь, что все ваши системные пакеты установленны и обновлены:
+  ~ sudo apt update
+  ~ sudo apt upgrade
+  ~ sudo apt install build-essential
+  
+  Шаг 2.
+  # Теперь выполните следующие команды, чтобы добавить node.js PPA в вашу систему Ubuntu и установить его:
+  ~ sudo apt install python-software-properties
+  ~ curl -sL https: //deb.nodesource.com/setup_14.x | sudo -E bash -
+  # Выполните установку Node.js:
+  ~ sudo apt install nodejs
+  # Проверьте, что установка выполнена успешно, запросив у node номер версии:
+  ~ nodejs -v
+  # Установить npm, диспетчер пакетов Node.js. Для этого установите пакет npm с помощью apt:
+  ~ sudo apt install npm
+  # Проверьте, что установка выполнена успешно, запросив у npm номер версии:
+  ~ npm -v
+  
+  Шаг 3. Установка Gulp.js в Ubuntu 20.04.
+  # Теперь мы запускаем следующие команды для глобальной установки Gulp CLI в вашей системе Ubuntu:
+  ~ sudo npm install -g gulp-cli
+  # Убедитесь, что установка прошла успешно:
+  ~ gulp --version
+  
+  Шаг 4. И для конкретного проекта (переходим в папку проекта):
+  # Создаем в папке проекта файл package.json:
+  ~ npm init
+  # Устанавливаем в папке проекта gulp локально:
+  ~ npm install --save-dev gulp
+  # Проверяем установку в проекте gulp:
+  ~ gulp --version
+  # Создаем в папке проекта файл gulpfile.js и пишем в него код.
+  
+  ДЛЯ ИНФОРМАЦИИ:
+  Проверяем установленные пакеты:
+  # Список глобально установленных пакетов на компьютере:
+  ~ npm list -g --depth=0 
+  # Список локально установленных пакетов на компьютере:
+  ~ npm list --depth=0
+  
+
+
+  
+  Обновление Nodejs:
+  # Проверяем установленные версии nodejs. Используем nvm:
+  ~ nvm ls
+  # Получаем список версий nodejs, доступных удаленно:
+   ~ nvm ls-remote
+  # Устанавливаем выбранную версию nodejs:
+  ~ nvm install [version.number] 
+  #!SECTION
+  
+  
+  
+  ?#SECTION ## PHP - НАСТРОЙКА VSCode-> 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+  * NOTE Переменная Среда PHP:
+  При смене версии php обязательно поменять пути к новой версии php
+  в Переменных Среды Пользователя переменную с глобальным путем к файлу php.exe. 
+  
+  * NOTE "Live Server" для PHP-Настройка: 
+  ------------------------------------------
+  Перед настройкой прописать глобальный путь до php 
+  в переменных средах Windows.
+  
+  1) установить расширение в chrome: "Live Server Web Extension"
+  2) Установить параметры в этом расширении:
+      Actual Server Address: http: //mdb5-1.test/
+      (или название сайта, расположенных в папке с доменами в OpenServer)
+      Live Server Address: http: //127.0.0.1:5501/
+  и нажать Apply
+  3) Запустить Live Server на Vscode 
+  4) в терминале команду: start chrome mdb5-1.test/
+  (или название сайта, расположенных в папке с доменами в OpenServer)
+  
+  ссылка на видео, оно для xampp? но я настроил под OpenServer:
+  https: //www.youtube.com/watch?v=tZQIzWdMUUU
+  #!SECTION
+  
+  ?#SECTION ## PHP-> 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Где установленны версии PHP в Ubuntu:
+  $ cd /etc/php/
+  
+  * NOTE Где находится файл php.ini в Ubuntu:
+  $ php -i | grep 'php.ini'
+  
+  * NOTE Посмотреть установленные модули в php:
+  ~ php -m
+  
+  *NOTE Перевод строки:
+  Использую функцию 'nl2br()' и константу 'PHP_EOL', пример:
+  ~ echo nl2br(PHP_EOL . "Erro " . PHP_EOL . $connect->error);
+  
+  #!SECTION
+  ?#SECTION ## PHP - COMPOSER-> 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  LINK https://clck.ru/mxTxg
+  
+    SECTION Часто Используемые Команды.
+    * NOTE Обновление Composer-а:
+    ~ composer self-update
+  
+    * NOTE Установка Пакета (require):
+    composer require [package name]
+  
+    * NOTE Для Окружения Development, (require --dev): 
+    ~ composer require --dev [package name]
+  
+    * NOTE Удаление Пакета:
+    ~ composer remove [package name]
+    * NOTE Удаление Пакета В Списке require-dev:
+    composer remove --dev [package name]
+  
+    * NOTE Список Установленных Пакетов:
+    ~ composer show
+  
+    * NOTE Установка Всех Зависимостей (не меняет composer.lock):
+    composer install
+    * NOTE  Установка Всех Зависимостей В окружении Production:
+    ~ composer install --no-dev
+  
+    * NOTE  Установка Последних Версий (меняет composer.lock):
+    composer update
+  
+    * NOTE  Установка Проекта (эквивалент: git clon + composer install):
+    composer create-project [package name] [path]
+  
+    * NOTE Обновление Автозагрузчика В окружении Development:
+    ~ composer dump-autoload
+    * NOTE Обновление Автозагрузчика В окружении Production:
+    ~ composer dump-autoload --optimize
+  
+  
+    * NOTE Добавляем\Исключаем Файлы в\из Git:
+    * Фиксируем
+      composer.json
+      composer.lock
+    * Исключаем
+      /vendor
+  
+    * NOTE ВЫЖИМКА КОМАНД:
+      Работа в Разных Окружениях.
+    * В окружении Development:
+      ~ composer require [--dev] [package name]
+      ~ composer remove [package name]
+      ~ composer install
+      ~ composer update
+      ~ composer dump-autoload
+      
+    *В окружении Production
+      ~ composer install --no-dev
+      ~ composer dump-autoload --optimize
+  #!SECTION
+  
+  
+  
+  
+  ?#SECTION # LINUX -> ********************************************
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Определить какой Linux: 
+  -----------------------------
+  Покажет, какой дистрибутив линукс и версия установлена:
+  ~ cat /etc/os-release
+  или коротко, но ясно:
+  ~ lsb_release -a
+  
+  #SECTION ОБОЛОЧКА (SHELL) LINUX:
+  -------------------------------------------
+  * NOTE Какая Оболочка (Shell) используется:
+  LINK https://clck.ru/pyrpN
+  LINK file:///D:\2_Soft\0.Software\Windows-WSL\Shells-Оболочки\Shells.Как_сменить_оболочку_в_Linux.docx
+  ~ $SHELL --version
+  
+  * NOTE Все доступные Оболочки перечисленны в файле /etc/shells:
+  --------------------------------------------------------------
+  Посмотреть содержимое, команда:
+  ~ cat /etc/shells
+  
+  * NOTE Сменить Оболочку, команда 'chsh' с параметром -s. Например меняем на оболочку 'bash':
+  --------------------------------------------------------------------------------------------
+  ~ chsh -s /usr/bin/bash
+  //#!SECTION
+  
+  
+  * NOTE Мои Пакеты в Linux:
+  --------------------------
+  # Bat. Делает тоже, что и cat, но подсвечивает синтаксис языка контента выводимого файлаЖ:
+  || LINK https://github.com/sharkdp/bat
+  ~ bat имя_файла
+  
+  * NOTE Команды Linux:
+  ----------------------
+  # Текущая ОБОЛОЧКА Linux:
+  ~ $SHELL
+  # Версия Оболочки Linux:
+  ~ $SHELL --version
+  
+  # Очистить ТЕРМИНАЛ:
+  переводт в конец коммандной строки:
+  ~ Ctrl +L
+  очищает всю историю просмотра (осторожно при просмотре двоичных файлов):
+  ~ clear
+  перезапускает терминал (лучше эта команда):
+  ~ reset
+  
+  # Создать ФАЙЛ file.name,
+  5 вариантов:
+  1. ~ echo "Какой-то текст, который записываем в создаваемый файл" >> file.name
+  2. ~ touch file.name
+  3. ~ cat > file.name
+  4. ~ echo> file.name
+  5. ~ code file.name
+  
+  # Редактировать файл, принадлежащий пользователю root, рекомендуется использовать "sudo -e". 
+  Это откроет копию файла в вашем любимом $EDITOR:
+  ~ nano file.name
+  
+  # Редактировать файл в редакторе nano:
+  ~ nano file.name
+  
+  # Посмотреть содержимое файла file.name: 
+  ~ cat file.name
+  
+  # Вывести содержимое текущей директории, (-a gjrfpsdftn crhsnst gfgrb):
+  ~ ls -la
+  ~ exa  --icons -a -RF 
+  
+  # Перейти в корень на Ubuntu:
+  ~ cd /
+  
+  # Перейти в домашнюю папку (/home/userName) на Ubuntu:
+  ~ cd ~
+  
+  # Посмотреть в какой директории сейчас нахожусь:
+  ~ pwd
+  
+  # ПОИСК, в какой папке находиться основная программа (сценарий, библиотека,...):
+  ~ which "program"
+  
+  # Поиск, все пути (может быть много) к программе и её компонентам (сценариям, библиотекам,...):
+  ~ whereis "program"
+  
+  # Поиск, найти  репозитории с пакетами\программи в apt:
+  ~ sudo apt search "packet_name"
+  
+  * NOTE Alias в Linux:
+  ---------------------
+  || info: ПОЛЕЗНЫЕ ALIAS LINUX
+  || LINK https://losst.ru/poleznye-alias-linux
+  
+  # Посмотреть все Alias в системе:
+  ~ alias
+  
+  # Добавить Alias, пример c, alias - clear:
+  ~ alias c='clear'
+  
+  # Удалить Alias:
+  ~ unalias имя_алиаса
+  
+  
+  * NOTE Установка Шрифтов в Linux:
+  ---------------------------------
+  INFO :
+  Для хранения шрифтов есть две основных папки, 
+  - для глобальных шрифтов: 
+   cd /usr/share/fonts 
+  - для шрифтов доступных только для пользователя:
+   cd ~.fonts  
+  
+  * NOTE Установка Пакетов в Linux:
+  * Установка, Удаление Программ\Пакетов в Linux:
+  ----------------------------------------------
+  || info: 20 полезных команд apt-get и 5 удобных команд apt-cache для управления пакетами
+  || LINK https://clck.ru/giJFZ
+  
+  # Просмотреть все доступные к Установке пакеты:
+  ~ apt-cache pkgnames
+  
+  # Описание пакета:
+  ~ apt-cache pkgnames  имя_пакета
+  
+  #Установка пакета - имя_пакета:
+  ~ sudo apt-get install имя_пакета
+  
+  #Удаление установленного пакета - name_program:
+  ~ sudo apt remove name_program
+  Однако, когда приложение удаляется с помощью apt-get remove, 
+  оно оставляет на месте файлы конфигурации. И эти файлы могут 
+  содержать важные конфиденциальные данные (например, логины). 
+  Даже если такой информации в них нет, вам вряд ли захочется, 
+  чтобы они засоряли вашу систему. 
+  И здесь на выручку приходит apt-get purge.
+  ~ apt-get purge name_program
+  
+  # Список установленных Пакетов:
+  ~ sudo apt list --installed | less 
+  ~ sudo dpkg-query -l | less
+  
+  # Проверить пакет: package_name Установлен или нет?
+  ~ sudo apt list --installed | grep package_name 
+  ~ sudo dpkg-query -l | grep package_name
+  
+  # Подсчитать Количество установленных пакетов на Linux:
+  ~ sudo dpkg-query -f '${binary:Package
+  }\n' -W | wc -l
+  
+  # Посмотреть Информацию о пакете на Linux:
+  ~ apt-cache show package_name
+  
+  # Посмотреть Пути куда установлен пакет:
+  ~ dpkg -L packet_name
+  
+  # Посмотреть Список установленных Snap пакетов на Linux:
+  ~ snap list
+  ||LINK https://pingvinus.ru/note/snap
+  # Посмотреть Список установленных пакетов Flatpak на Linux:
+  ~ flatpak list
+  || LINK https://clck.ru/giJZq
+  
+  
+  * NOTE Горячие Клавиши в Терминале Linux:
+  ----------------------------------------
+  Управление экраном
+  Следующие команды позволяют контролировать вывод в оболочке bash.
+  
+  # Производит быструю очистку экрана. Похожа на команду clear:
+  Ctrl+L
+  # Останавить весь вывод на экране\выполнение программы(пакета). 
+  Это полезно когда необходимо временно остановить запущенный процесс:
+  Ctrl+S
+  # Продолжает работу и отображение вывода после ее остановки:
+  Ctrl+Q:
+  
+  * INFO Распределение файлов в OS Linux:
+  ----------------------------------------
+  ОС Linux спроектирована так, что исполняемые и связанные 
+  с ними файлы программ распределяются по различным специализированным каталогам. 
+  Например,
+  - библиотеки устанавливаются в /lib или /usr/lib, 
+  - конфигурационные файлы в /etc, 
+  - а исполняемые файлы в /sbin/, /usr/bin или /bin.
+  ~ LINK https://losst.ru/peremennaya-path-v-linux
+  
+  * NOTE Переменные Окружения в Linux: 
+  -------------------------------------
+  # Команда, посмотреть весь список Переменных:
+  ~ env
+  # Команда, посмотреть Содержимое Переменной:
+  ~ echo $ИмяПеременной
+  # Папка Пользователя:
+  ~ $HOME
+  # Текущая Оболочка Linux:
+  ~ $SHELL
+  
+  
+  * NOTE Переменная $PATH в Linux:
+  -------------------------------
+  # Посмотреть содержимое переменной $PATH в Linux:
+  ~ echo $PATH
+  Чтобы получить удобочитаемый формат:
+  ~ echo "${PATH//:/$'\n'}"
+  или с нумерацией:
+  echo "$PATH" | tr ":" "\n" | nl
+  
+  # Добавить новый путь в переменную $PATH, пример:
+  ~ export PATH=$PATH:/exam/ple
+  
+  # 
+  ~ 
+  #!SECTION
+  
+  ?#SECTION ## Nano - РЕДАКТОР ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Редактор Nano встроен в Ubuntu. 
+  
+  Команда для запуска редактирования файла file.name:
+  ~ nano file.name 
+  
+  Горячие клавиши: 
+  Ctrl + X  Сохраняет и закрывает текстовый редактор.
+  Ctrl + O  Сохраняет изменения и прелагает ввести имя файла где будет сохранены изменения.
+  Если сохраняем в том же файле, просто нажимаем Enter.
+  
+  Ctrl + G  Показывает список всех доступных команд.
+  Ctrl + _  Перемещает курсор на определенную строку
+  Ctrl + K  Вырезать выделенный текст.
+  Alt + 6   Копировать выделенный текст в буфер обмена
+  Ctrl + U  Используется для вставки самого последнего текста из буфера обмена.
+  Alt + U   Отменить последние изменения
+  Alt + E   Повторить\вернуть назад отмененные изменения
+  #!SECTION
+  
+  
+  ?#SECTION ## (WSL-2) - UBUNTU ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  При запуске этих терминалов запускается служба 'WSL' Windows.
+  При завершении работы в этих терминалах необходимо останавливать 'WSL' Windows.
+  NOTE Ubuntu-Установленные Дистрибутивы:
+  *1) имя дистрибутива Ubuntu: 'Ubuntu-22.04'
+  * Версия Ubuntu 22.04
+  username: sergey-22 *[По Умолчанию]
+  пароль: 123
+  *В этой Ubunte установил:
+  Zsh
+  Oh My Zsh
+  
+  *2) имя дистрибутива Ubuntu: 'Ubuntu'
+  * Установленна по умолчанию !!!
+  В контекстном меню у меня в Windows запускается, установленная по умолчанию...
+  * Версия Ubuntu 18.04
+  username1 (root права): sergey
+  пароль: 123
+  
+  username2 (sudo права): sergio 
+  пароль: 123
+  даны права sudo.
+  link на статью по добавлению нового пользователя с правами sudo:
+  https://clck.ru/N7RmY
+  *В этой Ubuntu установил:
+  Zsh
+  Oh My Zsh
+  php7.4
+  php8.0
+  MySQL
+  Apache2
+  
+  * NOTE Как зайти под ROOT в Ubuntu:
+  ----------------------------------
+  ~ sudo su - root
+  
+  * NOTE Команды wsl:
+  ---------------------------
+  Это делается в "PowerShell":
+  # Проверка состояния WSL:
+  ~ wsl --status
+  # Список доступных к установке дистрибутивов Linux:
+  ~ wsl -l -o
+  # Установить дистрибутив Linux или установить еще один:
+  ~ wsl --install -d "Distribution_Name"
+  # Команда список установленных дистрибутивов Linux, и какие активны\не активны:
+  ~ wsl -l -v
+  # Команда завершить работу Ubuntu: 
+  ~ wsl --terminate "Distribution_Name"
+  ~ wsl -t "Distribution_Name"
+  # Установить дистрибутив Linux по умолчанию:
+  ~ wsl --set-default "Distribution_Name"
+  # Отменить регистрацию дистрибутива "Distribution_Name"
+  ~ wsl --unregister ubuntu2 
+  # Выключение WSL/Shutdown WSL. Именно Всю Систему WSL, НЕ ПЕРЕПУТАЙ:
+  ~ wsl --shutdown
+  # Обновление WSL:
+  ~ wsl --update
+  
+  Это делается в "BashShell Linux":
+  # Посмотреть версию дистрибутива Ubuntu/linux:
+  ~ lsb_release -a
+  
+  * NOTE Путь в Windos "/mnt/c/Users/ashle/Desktop":
+  --------------------------------------------------
+  # Команда перехода на диск C: в Windows ->  из Ubuntu (использую /mnt/): 
+  ~ cd /mnt/c
+  # Команда перехода в -> папку: "Пользователя" Windows из Ubuntu (использую /mnt/): 
+  ~ cd /mnt/c/Users/ashle
+  # Команда перехода в -> папку: "Рабочий стол" Windows из Ubuntu (использую /mnt/): 
+  ~ cd /mnt/c/Users/ashle/Desktop
+  
+  * NOTE Путь к "home\sergey" :
+  ------------------------------
+  Это делается в "Проводнике Windows10":
+  # Скопировать путь перехода из Windows в -> папку "home\sergey" на Ubuntu, и вставить в Проводник:
+  \\wsl$\Ubuntu\home\sergey
+  #!SECTION
+  
+  ?#SECTION ## ZSH, OH MY ZSH, ПЛАГИНЫ ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  || info: Папка где устанавливаются Плагины: 
+  ~ cd ~/.oh-my-zsh/custom/plugins
+  * NOTE ZSH, Устанавливаем  zsh:
+  ------------------------------
+  ~ sudo apt install zsh
+  # Проверяем версию zsh:
+  ~ zsh --version
+  
+  * NOTE "Oh My Zsh", Плагин для zsh:
+  ----------------------------------
+  # Удаляем Oh My Zsh и всё что с ним связано:
+  ~ uninstall_oh_my_zsh
+  # Удаляем Zsh:
+  ~ sudo apt remove zsh
+  
+  # Перейти в папку установки zsh, к файлу .zshrc:
+  ~ code ~/.zshrc
+  
+  # OH MY ZSH - настроена тема: powerlevel9k. Ссылка на статью с настройками:
+  ~ LINK https://caffeinedev.medium.com/customize-your-terminal-oh-my-zsh-on-ubuntu-18-04-lts-a9b11b63f2
+  
+  *# Важно! В системе должны быть настроены шрифты: MesloLGS NF.
+  В Windows, если запускаю отдельном окне, в свойствах должен быть указан этот шрифт.
+  
+  ?#SECTION ПЛАГИНЫ ZSH ->
+  xxxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE "Zsh-Autosuggestions" Плагин для zsh, автоподсказка команд:
+  -----------------------------------------------------------------
+  || LINK https://github.com/zsh-users/zsh-autosuggestions
+  При нажатии клавиши:
+  ~ Tab выпадают варианты команд, названий функций, ...
+  ~ LINK https://blog.tericcabrel.com/setup-zsh-autosuggestion-and-syntax-highlight-on-ubuntu-server/
+   
+  * NOTE "Sudo" Плагин для zsh, Два клка Esc и перед командой появляется sudo:
+  ---------------------------------------------------------------------------
+  || LINK https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo
+   
+  * NOTE "Exa" Плагин для zsh, замена команде ls:
+  -----------------------------------------------
+  || LINK https://github.com/ogham/exa
+  ~ exa --group-directories-first --icons -T -a -L=1  
+  ~ exa  --icons -a -F 
+  # Посмотреть файлы в Windows, c/Users/ashle:
+  ~ cd /mnt/c/Users/ashle/ | exa  --icons -a -F
+  
+  * NOTE "Autojamp" Плагин для zsh, быстрое перемещение
+  * по уже открывавшимся в сессии папка:
+  ------------------------------------------------------
+  ~ j ввести имя папки (можно не полностью)
+  || LINK https://github.com/wting/autojump#installation
+   | LINK https://www.linuxhelp.com/how-to-navigate-to-linux-filesystem-using-autojump
+  #!SECTION
+  #!SECTION
+  
+  
+  
+  ?##SECTION ## SSH ДОСТУП, UNZIP, UNRAR ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxXXXXXXX
+  * NOTE SSH Доступ на Хостинг:
+  -----------------------------
+  # Использовать лучше Putty.
+  или
+  # Можно запустить доступ из Терминала (Cmd, Bash, ...). Пример Команды:
+  ~ ssh -p 65002 u238281279@45.13.252.103
+  
+  * NOTE Unzip. Распаковка архива на Хостинге:
+  --------------------------------------------
+  Распаковать unzip можно только zip архивы, поэтому грузить только zip файлы.
+  Статья: LINK https://clck.ru/kXX7c
+  # Список содержимого файла:
+  ~ unzip -l filename.zip
+  
+  # Распаковать zip-файл:
+  ~ unzip filename.zip
+  
+  # Извлечь защищенный паролем файл:
+  ~ unzip -P password_here filename.zip
+  
+  # Извлечь файл в другой каталог:
+  ~ unzip filename.zip -d /path_to_extract
+  
+  * NOTE Unrar. Распаковка архива на Хостинге:
+  --------------------------------------------
+  Распаковать anrar можно rar архивы.
+  Статья: LINK https://clck.ru/kXqZR
+  # Список содержимого файла:
+  ~ unrar -l filename.zip
+  
+  # Чтобы сохранять полный путь, который прописан в архиве нужно использовать команду x:
+  ~ unrar x file.rar
+  
+  # Распаковать все файлы в корень папки:
+  ~ unrar e filename.zip
+  #!SECTION 
+  
+  
+  
+  ?#SECTION # WINDOWS ->****************************************
+  xxxxxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Версия. Какая версия Windows 10:
+  -------------------------------
+  ~ Windows + R
+  ~ winver
+  
+  * NOTE Пользователь. Список всех Пользователей:
+  ---------------------------------
+  ~ net user
+  
+  * NOTE Пользователь. Информации о пользователе:
+  ---------------------------------
+  ~ net user user_name
+  
+  * NOTE Учетная запись. Отключения учетной записи:
+  ---------------------------------
+  ~ net user user_name /active:no
+  
+  * NOTE Удаления учетной записи:
+  ---------------------------------
+  ~ net user user_name /delete 
+
+
+
+  ? #SECTION Горячие клавиши Windows 10:
+  ------------------------------------
+    #SECTION СИСТЕМА, КОМПЬЮТОР
+  .............................
+      #NOTE Блокировка компьютера:
+      ~ Windows + l
+      
+      #NOTE Открыть диалоговое окно «Выполнить»:
+      ~ Windows + R
+      
+      #NOTE Открыть окна «Параметры»:
+      ~ Windows + i
+      
+      #NOTE Отобразить окно «Свойства Системы»:
+      ~ Windows + PAUSE
+      
+      #NOTE "Подключение — Устройств", покажет подключенные устройсва:
+      ~ Windows + K
+      
+      #NOTE Открыть меню быстрых ссылок (Параметры, Система, Выполнить, ...):
+      ~ Windows + X
+      
+      #NOTE Открыть окно поиска:
+      ~ Windows + S
+      
+      #NOTE Буфер Обмена. Открыть:
+      ---------------------------------
+      ~ Win + V 
+  
+  # Завершение Работы или Перезапуск ОС Windows:
+  ~ На Pабочем Cтоле нажмите Alt + F4 
+    #!SECTION
+  
+    #SECTION УПРАВЛЕНИЕ ОКНАМИ
+  ............................
+      # NOTE Открыть Проводник:
+      ~ Windows + E
+      
+      # NOTE Отобразить/Скрыть Рабочий стол:
+      ~ Windows + D
+      
+      # NOTE Свернуть все окна:
+      ~ Windows + M
+      
+      # NOTE Восстановить все свернутые окна:
+      ~ Windows + Shift + M
+      
+      # NOTE Свернуть Все Окна, кроме Активного Окна Рабочего стола 
+      и Восстановить все окна при вторичном нажатии:
+      ~ Windows + HOME
+      
+      # NOTE Снимок Окна:
+      ~ Shift + Prt Scr (Print Screen)
+      
+      # NOTE Закрытие Окна или Веб-Страницы:
+      ~ В Активном окне нажмите Alt + F4
+      
+      # NOTE Прикрепление ОкнаЖ
+      ~ Windows + Стрелка: Влево, Вправо, Вниз, Вверх
+    #!SECTION
+  
+    #SECTION ФАЙЛЫ, ПАПКИ
+  .......................
+      # NOTE Создать Папку:
+      ~ Ctrl + Shift + N
+      
+      # NOTE Закрыть Файл, Папку:
+      ~ Alt + F4
+      
+      # NOTE Дублировать Паку:
+      ~ Ctrl + N
+      
+      # NOTE Удалить Файл\Папку Без Возможности Восстановления:
+      ~ Shift + Delete
+      
+      # NOTE Свойства файла:
+      ~ Alt + Enter (или Двойной Щелчок)
+      
+      # NOTE Открытие контекстного меню:Previous
+      ~ Shift + F10
+    #!SECTION
+   #!SECTION
+  
+  #!SECTION
+  
+  ?#SECTION ## WINDOWS-ТЕРМИНАЛ ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  # Путь к файлу настроек Windos-Terminal:
+  ~ C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.12.10982.0_x64__8wekyb3d8bbwe
+  Файл: defaults.json 
+  #!SECTION
+  
+  ?#SECTION ## CMD ->
+  xxxxxxxxxxxxxxxxxxxx  
+  # Информация осистеме, сборке, компьюторе, владельце, ...:
+  ----------------------------------------------------------
+  ~ systeminfo  
+  
+  # Переименование Пакетное файлов в командной строке cmd:
+  --------------------------------------------------------
+  ~ ren *.jpg img??.jpg
+  Описание: заменяет один символ в исходном файле, и также может в 
+  измененном файле подставляет число от 0 до 9, 
+  соответственно ?? два числа, ...
+  #!SECTION
+  
+  
+  ?#SECTION ## POWERSHELL ->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxx  
+  @ Справочная Документация на русском по PS 7.2:
+  LINK https://docs.microsoft.com/ru-ru/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-5.1
+  # EXE файл PowerShell версии 7.2: 
+  ~ pwsh.exe
+  
+  # EXE файл PowerShell версии 5.2: 
+  ~ powershel.exe
+  
+  # Стиль Отображения Окна Powershell:
+  * Задает стиль окна для сеанса. Допустимые значения <style>: Normal, Minimized, Maximized и Hidden.
+  LINK https://clck.ru/hiJEU
+  ~ PowerShell.exe -WindowStyle <style>
+  
+  # Версия 7.2. Путь к файлу pwsh.exe: 
+  ~ C:\Program Files\PowerShell\7\ 
+  
+  # Версия 5.2. Путь к файлу powershel.exe: 
+  ~ C:\Windows\System32\WindowsPowerShell\v1.0\ 
+  
+  # Проверить Версию установленного .NET Framework: 
+  ~ (Get-ItemProperty ‘HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full’ -Name Release).Release
+  
+  # Проверить версию MicrosoftPowerShell:
+  ~ Get-Host | Select-Object Version
+  
+  # Версия 'PowerShell Core', это имя 7 версии:
+  ~  $PSVersionTable.PSVersion
+  
+  # Полная информация по PowerShell:
+  ~ $PSVersionTable
+  
+  # Старт PowerShell-7 в режиме Администратора:
+  ~ start process -Path $PSHOME\pwsh -verb runAs
+  
+  # Старт PowerShell-5.1 в режиме Администратора:
+  ~ Start-Process powershell -Verb runAs
+  
+  
+  * NOTE СИСТЕМНЫЕ ПЕРЕМЕННЫЕ СРЕДЫ Windows:
+  ------------------------------------------
+  ~ Dir env:
+  # Показать все переменные окружения в PowerShell используйте команду:
+  ~ Get-ChildItem Env:
+  # Получить значение конкретной переменной, например OS:
+  ~ $env:OS 
+  
+  # Версия PowerShell:
+  ~ $psversiontable
+  
+  # Имя каталога, в который установлен Windows PowerShell:
+  ~ $PSHOME
+  
+  # Указывает домашний каталог пользователя:
+  ~ $Home
+  
+  # Переменная хранит путь к профилю "текущий пользователь, текущий узел":
+  ~ $PROFILE
+  
+  # Переменная указывает в какой папке вы сейчас находитесь:
+  ~ $pwd
+  
+  
+  * NOTE КОМАНДЫ POWERSHELL:
+  ==========================
+  # Сведения о конфигурации операционной системы Windows:
+  ~ systeminfo
+  
+  # Имя компьютора (hostname):
+  ~ hostname
+  
+  # Узнать какая Политика Разрешения выполнения скриптов в PowerShell :
+  ~ Get-ExecutionPolicy
+  
+  # Справка по команде, модулю, ..:
+  ~ Get-Help Имя_Команды
+  
+  # Получить Name:
+  ~ ~ Get-ChildItem Env:Path | SELECT Name
+  
+  # Получить Value этого Name:
+  ~ Get-ChildItem Env:Path | SELECT Value 
+  
+  # Write-Host - Вывести в терминал значение, например переменной $a:
+  ~ $name = 'Slim Shady'
+  ~ Write-Host 'My name is'$name
+  Увидим -> My name is Slim Shady
+  
+  # Get-Variable Получить Все переменные в Сеансе Powershell^
+  ~ Get-Variable
+  
+  # Invoke-Expression (сокращенно iex).  Запускает команды или выражения на локальном компьютере.
+  LINK https://clck.ru/iGAwD
+  * Пример 1. Запуск скрипта на локальном компьютере:
+  ~ Invoke-Expression -Command "C:\ps-test\testscript.ps1"
+  ~ "C:\ps-test\testscript.ps1" | Invoke-Expression
+  * Пример 2: Запуск команды в переменной:
+  ~ $Command = 'Get-Process | where {$_.cpu -gt 1000}'
+  ~ Invoke-Expression $Command
+  
+  
+  * NOTE МЕСТОПОЛОЖЕНИЕ на КОМПЬЮТОРЕ:
+  ------------------------------------
+  # Получить текущий каталог:
+  ~ get-location
+  ~ pwd
+  
+  # Указать\Перейти в папку по указанному пути:
+  ~ cd -Path 'здесь указать путь' -PassThru
+  ~ Set-Location -Path C:\Имя_Папки -PassThru
+  
+  # Найти файлы. Пример поиска по маске файла содержащего слово ubuntu: 
+  ~ Get-ChildItem -Path C:\ -Filter *ubuntu*.* -Recurse -ErrorAction SilentlyContinue 
+  
+  # -PassThru, Параметр отображает после выполнения скрипта в консоси результат работы скрипта. 
+  
+  
+  * NOTE ФАЙЛЫ, СКРИПТЫ:
+  -----------------------
+  # Запустить скрипт из командной строки, конструкт .\ перед именем файла :
+  ~ .\имя_скрипт.ps1
+  или
+  из папки, правая кнопка мыши и 'Выполнить с помощью Powershell'
+  
+  # Удалить файл:
+  ~ Remove-Item C:\Users\ashle\Documents\Ubuntu_Xfce.rdp 
+  
+  # Посмотреть содержимое папки:
+  ~ Get-ChildItem
+  
+  # Посмотреть содержимое папки по адресу (параметр -Path) C:\Test:
+  ~ Get-ChildItem -Path C:\Test
+  
+  # Чтение содержимого файла:
+  ~ gc имя_файла 
+  
+  # Скопировать файл в указанный каталог:
+  ~ Copy-Item "C:\Wabash\Logfiles\mar1604.log.txt" -Destination "C:\Presentation"
+  
+  # Скопировать содержимое каталога в существующий каталог:
+  ~ Copy-Item -Path "C:\Logfiles\*" -Destination "C:\Drawings" -Recurse
+  
+  # Скопировать в 'Защищенные Админским доступом Папки' с заменой, и копирование с заменой 'read-only файлов'. Ключь -Force:
+  ~ Copy-Item -Path "C:\SourceFolder\1.txt" -Destination "F:\DestFolder\1.txt" -Force
+  
+  # Скопировать файлы из одной папки в другую без замены существующих файлов:
+  ~ Copy-Item (Join-Path "C:\SourceFolder\" "*") "F:\DestFolder\" -Exclude (Get-ChildItem "F:\DestFolder\") -Recurse
+  
+  
+  
+  * NOTE ПОИСК ФАЙЛОВ, ПАПОК:
+  --------------------------
+  LINK https://www.bootdev.ru/2019/11/PowerShell-File-Search.html
+  
+  # Поиск с указанием откуда начать поиск, рекурсивно, с фильтром по расширению файла, с форматированием таблицей:
+  ~ Get-ChildItem -Path e:\ -Name -Filter "file_name" -Recurse -ErrorAction SilentlyContinue | ft -Property * -Wrap
+  
+  # Скрипт Поиска файла, смотри по ссылке:
+  file:///E:\@Скрипты\PowerShell-Скрипты\PS-Поиск_файлов\search-files.ps1
+  
+  
+  
+  * NOTE МОДУЛИ:
+  --------------
+  # Места размещения модулей Powershell:
+  ~ $env:PSModulePath
+  
+  # Найти модуль на удаленных репозиториях: 
+  ~ Find-Module -Name VMware.PowerCLI
+  
+  # Инсталировать модуль себе на комп:
+  ~ Install-Module -Name VMware.PowerCLI
+  
+  (Get-Module) Поиск доступных модулей (установленные в местоположении модулей по умолчанию) в пути, указанном в переменной среде $env:PSModulePath
+  # Найти модули, которые Установленны и Уже Импортированы в сеанс:
+  ~ Get-Module 
+  
+  # Найти модули, которые Установленны и Уже Импортированные и ещё НЕ Импортированные в сеанс:
+  ~ Get-Module -ListAvailable
+  
+  
+  
+  * NOTE ФОРМАТИРОВАНИЕ ВЫВОДА НА ЭКРАН КОНСОЛИ:
+  ---------------------------------------------
+  # Список с Путем. Вывод в формате Списка с путем к модулю\файлу. Добавляется к другой команде, например Get-Module и  выводиться после команды через, так называемый, контейнер | :
+  ~ | format-list  path -Wrap
+  
+  # Таблица с Путем. Вывод в формате Таблицы с путем к модулю\файлу. Добавляется к другой команде, например Get-Module и  выводиться после команды через, так называемый, контейнер | :
+  ~ | format-table  path -Wrap
+  
+  # Параметр -Wrap, перенос значения свойства на новую строку, если оно не умещается на одной строке:
+  ~ .... -Wrap
+  
+  # Добавить Цвет к выводу объекта, например - Цвет Фона (белый) и Цвет Текста (красный):
+  ~ ... -BackgroundColor White -ForegroundColor Red
+  
+  
+  
+  ## ИНФОРМАЦИЯ О КОМПЬЮТЕРАХ:
+  ---------------------------
+  # Ссылка на примеры команд по работе с компьютором:
+  LINK https://docs.microsoft.com/ru-ru/powershell/scripting/samples/collecting-information-about-computers?view=powershell-7.2 
+  
+  
+  * NOTE ФУНКЦИИ:
+  ---------------
+  # Определение функций в Powershell
+  LINK https://clck.ru/hcxBP
+  
+  
+  * NOTE ЗАПУСК СКРИПТА из СКРИПТА:
+  ---------------------------------
+  # Как запустить скрипты powershell в скрипте powershell 
+  (Пример: invoke-expression -Command $PSScriptRoot\popup_1.ps1):
+  LINK https://clck.ru/hczTJ
+  file:///D:\@Скрипты\PowerShell-Скрипты\PS-Запуск_Скрипта_из_BAT_файла\run_scripts_from_scripts.ps1
+  
+  * NOTE ЗАПУСК СКРИПТА из BAT ФАЙЛА:
+  -----------------------------------
+  # Как запустить скрипты powershell в bat файлах (powershell -file popup_2.ps1):
+  LINK https://clck.ru/hczMC
+  file:///D:\@Скрипты\PowerShell-Скрипты\PS-Запуск_Скрипта_из_BAT_файла\run.bat
+  
+  * NOTE ЗАПУСК C# из скрипта Powershell:
+  ---------------------------------------
+  # Как запустить скрипты powershell в bat файлах (powershell -file popup_2.ps1):
+  LINK https://clck.ru/iGchu
+  file:///D:\@Скрипты\
+  
+  
+  * NOTE КОДИРОВКА, ИЗМЕНЕНИЕ:
+  ----------------------------
+  Кодировка устанавливается в $PSDefaultParameterValues, она является переменной предпочтения, 
+  поэтому она существует только в сеансе, в котором она установлена. 
+  У него нет значения по умолчанию.
+  LINK https://clck.ru/hcyGn
+  
+  # Установить Кодировку по Умолчанию, используем $PSDefaultParameterValues переменную предпочтения (например utf8):
+  * Задать кодировку utf-8 для Командлета Out-File:
+  ~ $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+  * Задать кодировку utf-8 для Командлета Write-Host:
+  ~ $PSDefaultParameterValues['Write-Host:Encoding'] = 'utf8'
+  
+  # Изменить кодировку по умолчанию Для Всех Командлетов, имеющих параметр Encoding (например utf8):
+  ~ $PSDefaultParameterValues['*:Encoding'] = 'utf8'
+  
+  * NOTE ДЕСЯТЬ КОМАНД, КОТОРЫЕ ДОЛЖЕН ЗНАТЬ АДМИНИСТРАТОР WINDOWS:
+  -----------------------------------------------------------------
+  1. Get-Help
+  Первый командлет, который должен знать каждый администратор, — это Get-Help. С его помощью можно получить справочную информацию по любой другой команде. Например, чтобы узнать полный синтаксис для команды Get-Process, можно воспользоваться следующей командой:
+  ~ Get-Help -Name Get-Process
+  
+  ~ Get-Help также можно использовать с отдельными существительными и глаголами. Например, чтобы получить список команд с глаголом Get, можно воспользоваться следующей командой:
+  ~ Get-Help -Name Get-*
+  
+  2. Set-ExecutionPolicy
+  Хотя PowerShell предусматривает возможность создавать и выполнять сценарии, по умолчанию эта опция отключена, чтобы предотвратить исполнение вредоносного программного кода. Управлять разрешениями на выполнение сценариев можно с помощью команды Set-ExecutionPolicy. Доступны четыре уровня безопасности:
+  
+  • Restricted — выполнение сценариев запрещено. Эта опция установлена по умолчанию. Команды в таком случае можно выполнять только в интерактивном режиме.
+  
+  • All Signed — разрешено выполнение только сценариев, подписанных доверенным издателем.
+  
+  • Remote Signed — разрешено выполнение любых сценариев, созданных локально, а сценарии, созданные на удаленных системах, выполняются только в том случае, если подписаны доверенным издателем.
+  
+  • Unrestricted — разрешено выполнение абсолютно любых сценариев.
+  
+  Чтобы применить определенную политику выполнения сценариев, можно воспользоваться командой Set-ExecutionPolicy с указанием имени политики. Например, разрешить неограниченное выполнение сценариев можно следующей командой:
+  ~ Set-ExecutionPolicy Unrestricted
+  
+  3. Get-ExecutionPolicy
+  Приступая к работе на незнакомом сервере, стоит для начала выяснить, какая на нем действует политика выполнения сценариев. Узнать это можно с помощью команды Get-ExecutionPolicy.
+  
+  4. Get-Service
+  С помощью команды Get-Service можно получить список всех установленных в системе служб. Чтобы проверить состояние определенной службы, можно дополнить команду переключателем -Name с именем службы (допустимо использование групповых символов).
+  
+  5. ConvertTo-HTML
+  PowerShell позволяет получить массу полезных сведений о системе, но иногда бывает недостаточно просто просмотреть эту информацию в окне командной строки. Порой возникает необходимость составить отчет для отправки другому администратору. В таком случае можно воспользоваться командой ConvertTo-HTML, перенаправив на нее вывод любой другой команды. При этом необходимо использовать переключатель -Property для перечисления свойств, которые требуется включить в HTML-отчет, и указать имя файла.
+  
+  Возьмем для примера команду Get-Service, позволяющую получить список служб, и создадим на ее основе HTML-отчет с указанием имени и состояния каждой установленной в системе службы. Для этого можно воспользоваться следующей командой:
+  ~ Get-Service | ConvertTo-HTML -Property Name, Status > C:\services.htm
+  
+  6. Export-CSV
+  Отчеты можно сохранять не только в HTML, но и экспортировать в формат CSV для просмотра в Microsoft Excel. Синтаксис команды, которая применяется для этой цели, аналогичен ConvertTo-HTML. Обязательно следует указать имя файла для сохранения отчета. Например, экспортировать список служб в CSV-файл можно следующей командой:
+  ~ Get-Service | Export-CSV c:\service.csv
+  
+  7. Select-Object
+  При выполнении описанной выше команды CSV-отчет будет включать огромную массу информации, но иногда бывает полезно ограничить набор сведений. Сделать это можно с помощью команды Select-Object, которая позволяет указать, какие свойства должны быть включены в отчет. Например, чтобы создать CSV-отчет с перечислением имен и состояний всех системных служб, можно воспользоваться следующей командой:
+  ~ Get-Service | Select-Object Name, Status | Export-CSV c:\service.csv
+  
+  8. Get-EventLog
+  Команду Get-EventLog можно использовать для синтаксического анализа журналов событий. К ней предлагается целый ряд дополнительных параметров, но чтобы получить представление о том, как она работает, достаточно указать переключатель -Log и имя файла журнала. Например, посмотреть журнал какого-нибудь приложения, можно воспользоваться следующей командой:
+  
+  ~ Get-EventLog -Log "Имя приложения"
+  
+  На практике эта команда применяется довольно редко. Чаще всего вместо нее используются другие команды, позволяющие отфильтровать данные и сохранить их в формате CSV или HTML.
+  
+  9. Get-Process
+  Если команда Get-Service выводит список всех системных служб, то команда Get-Process позволяет получить список всех запущенных в данный момент процессов.
+  
+  10. Stop-Process
+  Когда тот или иной процесс зависает, можно выяснить его имя или идентификатор с помощью команды Get-Process, а затем завершить процесс командой Stop-Process с указанием его имени или идентификатора. Например, процесс «Notepad.exe» для Блокнота можно завершить одной из следующих команд:
+  
+  ~ Stop-Process -Name notepad
+  ~ Stop-Process -ID 2668
+  
+  
+  * NOTE ИСТОРИЯ ВВЕДЕННЫХ КОМАНД:
+  --------------------------------
+  # осмотреть историю команд:
+  ~ cat (Get-PSReadlineOption).HistorySavePath
+  ~ Get-Content (Get-PSReadlineOption).HistorySavePath
+  
+  # Посмотреть путь к файлу с командами:
+  ~ (Get-PSReadlineOption).HistorySavePath
+  
+  # Очистить историю команд:
+  ~ Remove-Item (Get-PSReadlineOption).HistorySavePath
+  
+  # Получить список команд в окне блокнота:
+  ~ notepad (Get-PSReadLineOption | select -ExpandProperty HistorySavePath)
+  
+  
+  * NOTE КОВЫЧКИ. КАК ПИСАТЬ?:
+  ----------------------------
+  LINK https://clck.ru/hrAFe
+  # В расширяемую строку можно напрямую внедрить только простые ссылки на переменные. Пример:
+  ~ "Switch-Desktop $i"
+  Ссылки на переменные, использующие Индексирование Массива или Доступ к Члену, 
+  должны быть заключены в часть выражения. Пример:
+  ~ "PS version: $($PSVersionTable.PSVersion)"
+  ~ "$($deskName[$i])" 
+  #!SECTION
+  
+  
+  ?#SECTION # PYTHON-3 ->
+  xxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Установка python3, ссылка на статью с командами:
+  ~ LINK https://ruslanmv.com/blog/Python3-in-Windows-with-Ubuntu
+  
+  # Проверяем установку python и pip, На Linux пользователям Python 3.x следует ввести:
+  ~ python3 --version
+  ~ pip3 --version
+  
+  * NOTE PYTHON компилировать в EXE файл:
+  # Установка pyinstaller с помощью pip:
+  ~ pip install pyinstaller
+  # Обновить pyinstaller:
+  ~ pip install --upgrade pyinstaller
+  # Проверяем установку pyinstaller:
+  ~ pyinstaller --version 
+  # Python файл в exe файл, команды:
+  ~ pyinstaller --onefile myscript.py
+  ~ pyinstaller myscript.py
+  
+  * NOTE Запустить скрипт *.py в командной строке:
+  ~ python3 имя_файла.py
+  
+  #!SECTION
+  
+  
+  ?#SECTION # FIGMA->
+  xxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Показать/Спрятать Панели с Инструментами в Figma:
+  ~ Ctrl + \
+    
+   * NOTE Показать/Спрятать Левую Панел с Слоями в Figma:
+  ~ Ctrl + Shift + \
+  
+   * NOTE Показать/Спрятать Сетку в Figma:
+  ~ Shift + G
+  #!SECTION
+  
+  
+  
+  ?#SECTION # ФОТОШОП->
+  xxxxxxxxxxxxxxxxxxxxxxxx
+  * NOTE Показать/Спрятать Направляющие в Фотошопе:
+  ~ Ctrl + ;*
+  #!SECTION
+  */
+  
