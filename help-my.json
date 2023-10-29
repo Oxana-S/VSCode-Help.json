@@ -986,6 +986,8 @@
   --
   nvm
   
+file:/home/sergey/.gitconfig    user.email=channel.my.honey@gmail.com
+file:/home/sergey/.gitconfig    user.name=Sergio Yarkov
   * NOTE Как зайти под ROOT в Ubuntu:
   ----------------------------------
   ~ sudo su - root
