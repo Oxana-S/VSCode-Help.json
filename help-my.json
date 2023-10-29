@@ -985,6 +985,8 @@
   Apache2
   --
   nvm
+  nodejs
+  npm
   --
   git
   user.email=channel.my.honey@gmail.com
