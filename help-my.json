@@ -474,7 +474,9 @@
   # Подключиться к удаленному репозиторию на github:
   ~ git remote add origin https: //github.com/Oxana-S/telemagadan.ru-04.22.git   
   # Запушить на удаленный реп. с именем main: 
-  ~ git push -u origin main    
+  ~ git push -u origin main 
+  # Чтобы отправить сразу все Ветки, следует его об этом попросить: 
+  ~ git push origin --all   
   
   ## NOTE Просмотр Изменений (Отличий от Локального Репозитория) на Удаленном Репозитории:
   LINK https://clck.ru/sGeAz
